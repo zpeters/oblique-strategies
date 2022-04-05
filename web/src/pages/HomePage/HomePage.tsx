@@ -5,7 +5,6 @@ import QuotesCell from 'src/components/QuotesCell'
 const HomePage = () => {
   return (
     <>
-      <MetaTags title="Home" description="Home page" />
       <h1 className="w-1/3 text-8xl text-neutral-200 font-semibold">
         Oblique Strategies
       </h1>

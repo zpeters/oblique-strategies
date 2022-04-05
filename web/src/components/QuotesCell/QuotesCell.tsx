@@ -14,9 +14,11 @@ export const Loading = () => <div>...thinking</div>
 
 export const Empty = () => <div>something weird happened</div>
 
-export const Failure = ({ error }: CellFailureProps) => (
-  <div style={{ color: 'red' }}>Error: {error.message}</div>
-)
+export const Failure = () => <div>something really weird happened</div>
+
+// export const Failure = ({ error }: CellFailureProps) => (
+//   <div style={{ color: 'red' }}>Error: {error.message}</div>
+// )
 
 export const Success = ({
   randomQuote,
