@@ -6,7 +6,7 @@ module.exports = {
       args: 'serve api',
       instances: 'max',
       exec_mode: 'cluster',
-      wait_ready: true,
+      wait_ready: false,
       listen_timeout: 10000,
     },
   ],
