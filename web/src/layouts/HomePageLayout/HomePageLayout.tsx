@@ -4,7 +4,7 @@ type HomePageLayoutProps = {
 
 const HomePageLayout = ({ children }: HomePageLayoutProps) => {
   return <>
-  <main class='bg-neutral-400 h-screen w-full'>
+  <main className='bg-neutral-400 h-screen w-full'>
   {children}
   </main>
   </>
