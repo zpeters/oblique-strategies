@@ -14,8 +14,8 @@ const Routes = () => {
   return (
     <Router>
       <Set wrap={HomePageLayout}>
-      <Route path="/" page={HomePage} name="home" />
-      <Route notfound page={NotFoundPage} />
+        <Route path="/" page={HomePage} name="home" />
+        <Route notfound page={NotFoundPage} />
       </Set>
     </Router>
   )

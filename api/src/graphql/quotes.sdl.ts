@@ -4,6 +4,6 @@ export const schema = gql`
   }
 
   type Query {
-    randomQuote:  Quote @skipAuth
+    randomQuote: Quote @skipAuth
   }
 `
