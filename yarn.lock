@@ -3593,7 +3593,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/api@npm:1.0.0, @redwoodjs/api@npm:^1.0.0":
+"@redwoodjs/api@npm:1.0.0":
   version: 1.0.0
   resolution: "@redwoodjs/api@npm:1.0.0"
   dependencies:
@@ -3682,7 +3682,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/core@npm:^1.0.0":
+"@redwoodjs/core@npm:1.0.0":
   version: 1.0.0
   resolution: "@redwoodjs/core@npm:1.0.0"
   dependencies:
@@ -3781,7 +3781,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/forms@npm:^1.0.0":
+"@redwoodjs/forms@npm:1.0.0":
   version: 1.0.0
   resolution: "@redwoodjs/forms@npm:1.0.0"
   dependencies:
@@ -3795,7 +3795,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/graphql-server@npm:1.0.0, @redwoodjs/graphql-server@npm:^1.0.0":
+"@redwoodjs/graphql-server@npm:1.0.0":
   version: 1.0.0
   resolution: "@redwoodjs/graphql-server@npm:1.0.0"
   dependencies:
@@ -3883,7 +3883,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/router@npm:1.0.0, @redwoodjs/router@npm:^1.0.0":
+"@redwoodjs/router@npm:1.0.0":
   version: 1.0.0
   resolution: "@redwoodjs/router@npm:1.0.0"
   dependencies:
@@ -3975,7 +3975,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/web@npm:1.0.0, @redwoodjs/web@npm:^1.0.0":
+"@redwoodjs/web@npm:1.0.0":
   version: 1.0.0
   resolution: "@redwoodjs/web@npm:1.0.0"
   dependencies:
@@ -6778,8 +6778,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "api@workspace:api"
   dependencies:
-    "@redwoodjs/api": ^1.0.0
-    "@redwoodjs/graphql-server": ^1.0.0
+    "@redwoodjs/api": 1.0.0
+    "@redwoodjs/graphql-server": 1.0.0
   languageName: unknown
   linkType: soft
 
@@ -7189,7 +7189,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.4.4":
+"autoprefixer@npm:10.4.4":
   version: 10.4.4
   resolution: "autoprefixer@npm:10.4.4"
   dependencies:
@@ -17204,7 +17204,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-ssh@npm:^12.0.4":
+"node-ssh@npm:12.0.4":
   version: 12.0.4
   resolution: "node-ssh@npm:12.0.4"
   dependencies:
@@ -18448,6 +18448,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss-loader@npm:6.2.1":
+  version: 6.2.1
+  resolution: "postcss-loader@npm:6.2.1"
+  dependencies:
+    cosmiconfig: ^7.0.0
+    klona: ^2.0.5
+    semver: ^7.3.5
+  peerDependencies:
+    postcss: ^7.0.0 || ^8.0.1
+    webpack: ^5.0.0
+  checksum: 736a1bf43a3e09e2351b5cc97cc26790a1c3261412c9dee063f3f6f2969a6ff7d8d194d9adcad01cee1afd1de071482318d9699e6157b67d46b3dccf3be1b58b
+  languageName: node
+  linkType: hard
+
 "postcss-loader@npm:^4.2.0":
   version: 4.3.0
   resolution: "postcss-loader@npm:4.3.0"
@@ -18461,20 +18475,6 @@ __metadata:
     postcss: ^7.0.0 || ^8.0.1
     webpack: ^4.0.0 || ^5.0.0
   checksum: 3405584e571ec4d66d7c2b665a2a4823eaa7208433fd40eb6b669ac441f23398bc81fc18fe631c7d7805a303ad31f284a5066c4097dd082c1faba7edf13db8aa
-  languageName: node
-  linkType: hard
-
-"postcss-loader@npm:^6.2.1":
-  version: 6.2.1
-  resolution: "postcss-loader@npm:6.2.1"
-  dependencies:
-    cosmiconfig: ^7.0.0
-    klona: ^2.0.5
-    semver: ^7.3.5
-  peerDependencies:
-    postcss: ^7.0.0 || ^8.0.1
-    webpack: ^5.0.0
-  checksum: 736a1bf43a3e09e2351b5cc97cc26790a1c3261412c9dee063f3f6f2969a6ff7d8d194d9adcad01cee1afd1de071482318d9699e6157b67d46b3dccf3be1b58b
   languageName: node
   linkType: hard
 
@@ -18822,17 +18822,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^7.0.14, postcss@npm:^7.0.26, postcss@npm:^7.0.32, postcss@npm:^7.0.36, postcss@npm:^7.0.5, postcss@npm:^7.0.6":
-  version: 7.0.39
-  resolution: "postcss@npm:7.0.39"
-  dependencies:
-    picocolors: ^0.2.1
-    source-map: ^0.6.1
-  checksum: fd27ee808c0d02407582cccfad4729033e2b439d56cd45534fb39aaad308bb35a290f3b7db5f2394980e8756f9381b458a625618550808c5ff01a125f51efc53
-  languageName: node
-  linkType: hard
-
-"postcss@npm:^8.2.15, postcss@npm:^8.3.5, postcss@npm:^8.4.12, postcss@npm:^8.4.6, postcss@npm:^8.4.7":
+"postcss@npm:8.4.12, postcss@npm:^8.2.15, postcss@npm:^8.3.5, postcss@npm:^8.4.6, postcss@npm:^8.4.7":
   version: 8.4.12
   resolution: "postcss@npm:8.4.12"
   dependencies:
@@ -18840,6 +18830,16 @@ __metadata:
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
   checksum: f5aea065c84efef236e9f387eb4fceaab3cc932c25ce480bb82f75b36a6c1a7720cc4c5ef2fb82a5d216aecb5c436af36dae45191e94a7a5b53c2b999610430f
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^7.0.14, postcss@npm:^7.0.26, postcss@npm:^7.0.32, postcss@npm:^7.0.36, postcss@npm:^7.0.5, postcss@npm:^7.0.6":
+  version: 7.0.39
+  resolution: "postcss@npm:7.0.39"
+  dependencies:
+    picocolors: ^0.2.1
+    source-map: ^0.6.1
+  checksum: fd27ee808c0d02407582cccfad4729033e2b439d56cd45534fb39aaad308bb35a290f3b7db5f2394980e8756f9381b458a625618550808c5ff01a125f51efc53
   languageName: node
   linkType: hard
 
@@ -20245,8 +20245,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@redwoodjs/core": ^1.0.0
-    node-ssh: ^12.0.4
+    "@redwoodjs/core": 1.0.0
+    node-ssh: 12.0.4
   languageName: unknown
   linkType: soft
 
@@ -21727,7 +21727,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3.0.23":
+"tailwindcss@npm:3.0.23":
   version: 3.0.23
   resolution: "tailwindcss@npm:3.0.23"
   dependencies:
@@ -23232,16 +23232,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web@workspace:web"
   dependencies:
-    "@redwoodjs/forms": ^1.0.0
-    "@redwoodjs/router": ^1.0.0
-    "@redwoodjs/web": ^1.0.0
-    autoprefixer: ^10.4.4
-    postcss: ^8.4.12
-    postcss-loader: ^6.2.1
+    "@redwoodjs/forms": 1.0.0
+    "@redwoodjs/router": 1.0.0
+    "@redwoodjs/web": 1.0.0
+    autoprefixer: 10.4.4
+    postcss: 8.4.12
+    postcss-loader: 6.2.1
     prop-types: 15.8.1
     react: 17.0.2
     react-dom: 17.0.2
-    tailwindcss: ^3.0.23
+    tailwindcss: 3.0.23
   languageName: unknown
   linkType: soft
 
