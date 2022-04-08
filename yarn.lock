@@ -17204,7 +17204,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-ssh@npm:12.0.4":
+"node-ssh@npm:^12.0.4":
   version: 12.0.4
   resolution: "node-ssh@npm:12.0.4"
   dependencies:
@@ -20246,7 +20246,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@redwoodjs/core": ^1.0.0
-    node-ssh: 12.0.4
+    node-ssh: ^12.0.4
   languageName: unknown
   linkType: soft
 

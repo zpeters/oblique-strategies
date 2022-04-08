@@ -16,11 +16,12 @@
 host = "redwood"
 username = "zach"
 agentForward = false
-privateKey = "/Users/zachpeters/.ssh/id_rsa"
 migrate = false
+privateKey = "/Users/zachpeters/.ssh/id_rsa"
 sides = ["api","web"]
 path = "/var/www/oblique-strategies"
-processNames = ["serve"]
+processNames = ["api"]
+
 
 # If you have separate api and web servers:
 #
