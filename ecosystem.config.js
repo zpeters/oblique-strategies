@@ -2,6 +2,7 @@ module.exports = {
   apps: [
     {
       name: 'api',
+      namespace: 'serve',
       script: 'node_modules/.bin/rw',
       args: 'serve api',
       instances: 'max',
