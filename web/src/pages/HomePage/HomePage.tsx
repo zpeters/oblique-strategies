@@ -1,10 +1,9 @@
-import { Link, routes } from '@redwoodjs/router'
-import { MetaTags } from '@redwoodjs/web'
 import QuotesCell from 'src/components/QuotesCell'
 
 const HomePage = () => {
   return (
     <>
+      <div></div>
       <h1 className="w-1/3 text-8xl text-neutral-200 font-semibold">
         Oblique Strategies
       </h1>
@@ -44,24 +43,10 @@ const HomePage = () => {
         </a>
         &nbsp;with&nbsp;
         <a
-          href="https://nestjs.com/"
+          href="https://redwoodjs.com/"
           className="text-neutral-800 font-semibold hover:underline underline-offset-2 decoration-neutral-600"
         >
-          NestJS
-        </a>
-        ,
-        <a
-          href="https://kit.svelte.dev/"
-          className="text-neutral-800 font-semibold hover:underline underline-offset-2 decoration-neutral-600"
-        >
-          SvelteKit
-        </a>
-        &nbsp;and&nbsp;
-        <a
-          href="https://tailwindcss.com/"
-          className="text-neutral-800 font-semibold hover:underline underline-offset-2 decoration-neutral-600"
-        >
-          Tailwind
+          RedwoodJS
         </a>
       </div>
     </>
