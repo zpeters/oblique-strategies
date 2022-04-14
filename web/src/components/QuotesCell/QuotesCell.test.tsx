@@ -35,7 +35,7 @@ describe('QuotesCell', () => {
 
   it('renders Success successfully', async () => {
     expect(() => {
-      render(<Success quotes={standard().quotes} />)
+      render(<Success quote={standard().quote} />)
     }).not.toThrow()
   })
 })
