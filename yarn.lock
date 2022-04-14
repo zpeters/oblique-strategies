@@ -3690,7 +3690,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/api@npm:1.0.0, @redwoodjs/api@npm:^1.0.0":
+"@redwoodjs/api@npm:1.0.0":
   version: 1.0.0
   resolution: "@redwoodjs/api@npm:1.0.0"
   dependencies:
@@ -3779,7 +3779,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/core@npm:^1.0.0":
+"@redwoodjs/core@npm:1.0.0":
   version: 1.0.0
   resolution: "@redwoodjs/core@npm:1.0.0"
   dependencies:
@@ -3878,7 +3878,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/forms@npm:^1.0.0":
+"@redwoodjs/forms@npm:1.0.0":
   version: 1.0.0
   resolution: "@redwoodjs/forms@npm:1.0.0"
   dependencies:
@@ -3892,7 +3892,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/graphql-server@npm:1.0.0, @redwoodjs/graphql-server@npm:^1.0.0":
+"@redwoodjs/graphql-server@npm:1.0.0":
   version: 1.0.0
   resolution: "@redwoodjs/graphql-server@npm:1.0.0"
   dependencies:
@@ -3980,7 +3980,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/router@npm:1.0.0, @redwoodjs/router@npm:^1.0.0":
+"@redwoodjs/router@npm:1.0.0":
   version: 1.0.0
   resolution: "@redwoodjs/router@npm:1.0.0"
   dependencies:
@@ -4072,7 +4072,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/web@npm:1.0.0, @redwoodjs/web@npm:^1.0.0":
+"@redwoodjs/web@npm:1.0.0":
   version: 1.0.0
   resolution: "@redwoodjs/web@npm:1.0.0"
   dependencies:
@@ -6891,8 +6891,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "api@workspace:api"
   dependencies:
-    "@redwoodjs/api": ^1.0.0
-    "@redwoodjs/graphql-server": ^1.0.0
+    "@redwoodjs/api": 1.0.0
+    "@redwoodjs/graphql-server": 1.0.0
   languageName: unknown
   linkType: soft
 
@@ -17639,7 +17639,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-ssh@npm:^12.0.4":
+"node-ssh@npm:12.0.4":
   version: 12.0.4
   resolution: "node-ssh@npm:12.0.4"
   dependencies:
@@ -18852,7 +18852,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pm2@npm:^5.2.0":
+"pm2@npm:5.2.0":
   version: 5.2.0
   resolution: "pm2@npm:5.2.0"
   dependencies:
@@ -20904,9 +20904,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@redwoodjs/core": ^1.0.0
-    node-ssh: ^12.0.4
-    pm2: ^5.2.0
+    "@redwoodjs/core": 1.0.0
+    node-ssh: 12.0.4
+    pm2: 5.2.0
   languageName: unknown
   linkType: soft
 
@@ -24006,9 +24006,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web@workspace:web"
   dependencies:
-    "@redwoodjs/forms": ^1.0.0
-    "@redwoodjs/router": ^1.0.0
-    "@redwoodjs/web": ^1.0.0
+    "@redwoodjs/forms": 1.0.0
+    "@redwoodjs/router": 1.0.0
+    "@redwoodjs/web": 1.0.0
     autoprefixer: 10.4.4
     postcss: 8.4.12
     postcss-loader: 6.2.1
