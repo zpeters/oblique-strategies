@@ -31,6 +31,6 @@ describe('QuotesCell', () => {
     expect(() => {
       render(<Success randomQuote={standard().quote} />)
     }).not.toThrow()
-  expect(screen.getByText('This is my quote')).toBeInTheDocument()
+    expect(screen.getByText('This is my quote')).toBeInTheDocument()
   })
 })
