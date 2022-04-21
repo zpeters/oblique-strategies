@@ -21,7 +21,7 @@ privateKey = "/Users/zachpeters/.ssh/id_rsa"
 sides = ["api","web"]
 path = "/var/www/oblique-strategies"
 processNames = ["api"]
-pm2Global = true
+pm2Global = false
 
 
 # If you have separate api and web servers:
