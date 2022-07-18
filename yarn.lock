@@ -23364,7 +23364,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pm3@npm:^0.0.0":
+"pm3@npm:0.0.0":
   version: 0.0.0
   resolution: "pm3@npm:0.0.0"
   checksum: e1ac9f4ee4f45db50c35b146fb6c116cbb530fc1dc4cd0033f8f53d9c2058ee4c1a71d34322dcd7257f11b2486924bfe109856b9e6304c6ad457f6acf2629d48
@@ -25635,7 +25635,7 @@ __metadata:
     pascalcase: 1.0.0
     pino: 7.10.0
     pluralize: 8.0.0
-    pm3: ^0.0.0
+    pm3: 0.0.0
     prettier: 2.6.2
     pretty-bytes: 5.6.0
     pretty-ms: 7.0.1
