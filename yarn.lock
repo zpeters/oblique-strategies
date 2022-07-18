@@ -9240,15 +9240,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:17.0.15, @types/react-dom@npm:<18.0.0":
-  version: 17.0.15
-  resolution: "@types/react-dom@npm:17.0.15"
-  dependencies:
-    "@types/react": ^17
-  checksum: f6faa3b12c5301817f37a19a7b54beace8f35dee3480401a165cf9e9e4bcf2775496b7f37f3262ced9f44b0ee8e863b991efcce3b8588aec9a45a85268bdfb89
-  languageName: node
-  linkType: hard
-
 "@types/react-dom@npm:17.0.17":
   version: 17.0.17
   resolution: "@types/react-dom@npm:17.0.17"
@@ -9258,12 +9249,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.0.0":
+"@types/react-dom@npm:18.0.6, @types/react-dom@npm:^18.0.0":
   version: 18.0.6
   resolution: "@types/react-dom@npm:18.0.6"
   dependencies:
     "@types/react": "*"
   checksum: 8ea6e001b741cced20781b3e5e8704c2597815adf1dc22d6b4d24616f24db93364a7163543cb0690082201a351cbfcb6bb0f8ce44ee5ad76ccabacbfe0fb2dd3
+  languageName: node
+  linkType: hard
+
+"@types/react-dom@npm:<18.0.0":
+  version: 17.0.15
+  resolution: "@types/react-dom@npm:17.0.15"
+  dependencies:
+    "@types/react": ^17
+  checksum: f6faa3b12c5301817f37a19a7b54beace8f35dee3480401a165cf9e9e4bcf2775496b7f37f3262ced9f44b0ee8e863b991efcce3b8588aec9a45a85268bdfb89
   languageName: node
   linkType: hard
 
@@ -25541,8 +25541,8 @@ __metadata:
     "@types/jest": 27.4.1
     "@types/line-column": 1.0.0
     "@types/node": 16.11.27
+    "@types/react-dom": 18.0.6
     "@types/react": 18.0.15
-    "@types/react-dom": 17.0.15
     "@types/webpack": 5.28.0
     "@typescript-eslint/eslint-plugin": 5.20.0
     "@typescript-eslint/parser": 5.20.0
