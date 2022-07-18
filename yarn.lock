@@ -7907,17 +7907,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:17.0.44, @types/react@npm:^17":
-  version: 17.0.44
-  resolution: "@types/react@npm:17.0.44"
-  dependencies:
-    "@types/prop-types": "*"
-    "@types/scheduler": "*"
-    csstype: ^3.0.2
-  checksum: d83d6999582a17620ac208be392a1713f3d16acd6a0f0e4d5f661e43e35297eb05c89d67ea90e04fc1f1ebf92e7b6cc4353253bbee35ae1695aedf944b9af8dc
-  languageName: node
-  linkType: hard
-
 "@types/react@npm:17.0.45":
   version: 17.0.45
   resolution: "@types/react@npm:17.0.45"
@@ -7926,6 +7915,28 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: c8736331aed7a561758757a09ddbed801b7d0a931378741a271afa230403d5306a0d5119a0621f40366d59a5f0174e4c569547e1e4767bb0c287835ec4966cb5
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:18.0.15":
+  version: 18.0.15
+  resolution: "@types/react@npm:18.0.15"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: 359b63de6e418dba51f54258ef09cbc434141a92d5f24e3e606cafdc0b0f23a6fb5e410c3ec6ada87eb54b9a055b94d2305c5ab90e691dbce1ed82818a99aa60
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^17":
+  version: 17.0.44
+  resolution: "@types/react@npm:17.0.44"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: d83d6999582a17620ac208be392a1713f3d16acd6a0f0e4d5f661e43e35297eb05c89d67ea90e04fc1f1ebf92e7b6cc4353253bbee35ae1695aedf944b9af8dc
   languageName: node
   linkType: hard
 
@@ -23859,7 +23870,7 @@ __metadata:
     "@types/jest": 27.4.1
     "@types/line-column": 1.0.0
     "@types/node": 16.11.27
-    "@types/react": 17.0.44
+    "@types/react": 18.0.15
     "@types/react-dom": 17.0.15
     "@types/webpack": 5.28.0
     "@typescript-eslint/eslint-plugin": 5.20.0
