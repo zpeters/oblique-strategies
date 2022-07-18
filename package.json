@@ -101,7 +101,7 @@
     "concurrently": "7.1.0",
     "configstore": "3.1.5",
     "copy-webpack-plugin": "10.2.4",
-    "core-js": "3.22.1",
+    "core-js": "3.23.5",
     "cross-env": "7.0.3",
     "cross-undici-fetch": "0.3.0",
     "crypto-js": "4.1.1",
