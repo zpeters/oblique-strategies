@@ -113,7 +113,7 @@
     "dotenv-webpack": "7.1.0",
     "enquirer": "2.3.6",
     "envinfo": "7.8.1",
-    "esbuild": "0.14.36",
+    "esbuild": "0.14.49",
     "esbuild-loader": "2.18.0",
     "eslint": "8.13.0",
     "eslint-config-prettier": "8.5.0",
