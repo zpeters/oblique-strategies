@@ -9287,17 +9287,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:17.0.44, @types/react@npm:^17":
-  version: 17.0.44
-  resolution: "@types/react@npm:17.0.44"
-  dependencies:
-    "@types/prop-types": "*"
-    "@types/scheduler": "*"
-    csstype: ^3.0.2
-  checksum: d83d6999582a17620ac208be392a1713f3d16acd6a0f0e4d5f661e43e35297eb05c89d67ea90e04fc1f1ebf92e7b6cc4353253bbee35ae1695aedf944b9af8dc
-  languageName: node
-  linkType: hard
-
 "@types/react@npm:17.0.45":
   version: 17.0.45
   resolution: "@types/react@npm:17.0.45"
@@ -9306,6 +9295,28 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: c8736331aed7a561758757a09ddbed801b7d0a931378741a271afa230403d5306a0d5119a0621f40366d59a5f0174e4c569547e1e4767bb0c287835ec4966cb5
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:18.0.15":
+  version: 18.0.15
+  resolution: "@types/react@npm:18.0.15"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: 359b63de6e418dba51f54258ef09cbc434141a92d5f24e3e606cafdc0b0f23a6fb5e410c3ec6ada87eb54b9a055b94d2305c5ab90e691dbce1ed82818a99aa60
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^17":
+  version: 17.0.44
+  resolution: "@types/react@npm:17.0.44"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: d83d6999582a17620ac208be392a1713f3d16acd6a0f0e4d5f661e43e35297eb05c89d67ea90e04fc1f1ebf92e7b6cc4353253bbee35ae1695aedf944b9af8dc
   languageName: node
   linkType: hard
 
@@ -13213,13 +13224,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.22.1, core-js@npm:^3.0.4, core-js@npm:^3.19.0, core-js@npm:^3.6.5, core-js@npm:^3.8.2":
-  version: 3.22.1
-  resolution: "core-js@npm:3.22.1"
-  checksum: 8a5be3d3d3274109e9e92d53d16c5f147b37fabf6ef61a8e17a867c5d2d8735cb4cfe97df2fea507ccb5ccc30bbafc3663e0bcfdace76feee7c0b26f0660df34
-  languageName: node
-  linkType: hard
-
 "core-js@npm:3.22.5":
   version: 3.22.5
   resolution: "core-js@npm:3.22.5"
@@ -13227,10 +13231,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^3.22.1":
+"core-js@npm:3.23.5, core-js@npm:^3.22.1":
   version: 3.23.5
   resolution: "core-js@npm:3.23.5"
   checksum: ab9b483ede285b3949e2411f9190d147ac589d111b0aa3a4b2999a1bf2755b3e930529c2a22ff550efd4fc154c7cfae700bee858dedff905a09f35ddbcc6425f
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.0.4, core-js@npm:^3.19.0, core-js@npm:^3.6.5, core-js@npm:^3.8.2":
+  version: 3.22.1
+  resolution: "core-js@npm:3.22.1"
+  checksum: 8a5be3d3d3274109e9e92d53d16c5f147b37fabf6ef61a8e17a867c5d2d8735cb4cfe97df2fea507ccb5ccc30bbafc3663e0bcfdace76feee7c0b26f0660df34
   languageName: node
   linkType: hard
 
@@ -23353,7 +23364,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pm3@npm:^0.0.0":
+"pm3@npm:0.0.0":
   version: 0.0.0
   resolution: "pm3@npm:0.0.0"
   checksum: e1ac9f4ee4f45db50c35b146fb6c116cbb530fc1dc4cd0033f8f53d9c2058ee4c1a71d34322dcd7257f11b2486924bfe109856b9e6304c6ad457f6acf2629d48
@@ -25530,8 +25541,8 @@ __metadata:
     "@types/jest": 27.4.1
     "@types/line-column": 1.0.0
     "@types/node": 16.11.27
-    "@types/react": 17.0.44
     "@types/react-dom": 18.0.6
+    "@types/react": 18.0.15
     "@types/webpack": 5.28.0
     "@typescript-eslint/eslint-plugin": 5.20.0
     "@typescript-eslint/parser": 5.20.0
@@ -25554,7 +25565,7 @@ __metadata:
     concurrently: 7.1.0
     configstore: 3.1.5
     copy-webpack-plugin: 10.2.4
-    core-js: 3.22.1
+    core-js: 3.23.5
     cross-env: 7.0.3
     cross-undici-fetch: 0.3.0
     crypto-js: 4.1.1
@@ -25624,7 +25635,7 @@ __metadata:
     pascalcase: 1.0.0
     pino: 7.10.0
     pluralize: 8.0.0
-    pm3: ^0.0.0
+    pm3: 0.0.0
     prettier: 2.6.2
     pretty-bytes: 5.6.0
     pretty-ms: 7.0.1
@@ -28028,7 +28039,7 @@ __metadata:
 
 "typescript@patch:typescript@4.6.3#~builtin<compat/typescript>":
   version: 4.6.3
-  resolution: "typescript@patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=bda367"
+  resolution: "typescript@patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=7ad353"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
@@ -28038,7 +28049,7 @@ __metadata:
 
 "typescript@patch:typescript@4.6.4#~builtin<compat/typescript>":
   version: 4.6.4
-  resolution: "typescript@patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=bda367"
+  resolution: "typescript@patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=7ad353"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
