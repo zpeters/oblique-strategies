@@ -8503,6 +8503,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@testing-library/dom@npm:^8.5.0":
+  version: 8.16.0
+  resolution: "@testing-library/dom@npm:8.16.0"
+  dependencies:
+    "@babel/code-frame": ^7.10.4
+    "@babel/runtime": ^7.12.5
+    "@types/aria-query": ^4.2.0
+    aria-query: ^5.0.0
+    chalk: ^4.1.0
+    dom-accessibility-api: ^0.5.9
+    lz-string: ^1.4.4
+    pretty-format: ^27.0.2
+  checksum: 4a4b7e2ee1d3543b2935e60a0d85ac041ebe36fc6fbb3cbdf86898cd9947410ca75ad78f88e91b6eb146fb76f3ef102a1e24495761e1a5b8fe60aa82d3edd874
+  languageName: node
+  linkType: hard
+
 "@testing-library/jest-dom@npm:5.16.4":
   version: 5.16.4
   resolution: "@testing-library/jest-dom@npm:5.16.4"
@@ -8553,6 +8569,20 @@ __metadata:
     react: <18.0.0
     react-dom: <18.0.0
   checksum: 3c2433d2fdb6535261f62cd85d79657989cebd96f9072da03c098a1cfa56dec4dfec83d7c2e93633a3ccebdb178ea8578261533d11551600966edab77af00c8b
+  languageName: node
+  linkType: hard
+
+"@testing-library/react@npm:13.3.0":
+  version: 13.3.0
+  resolution: "@testing-library/react@npm:13.3.0"
+  dependencies:
+    "@babel/runtime": ^7.12.5
+    "@testing-library/dom": ^8.5.0
+    "@types/react-dom": ^18.0.0
+  peerDependencies:
+    react: ^18.0.0
+    react-dom: ^18.0.0
+  checksum: 3e2ad6fc764ba912144bb5e8475caa08ef3666ed9ac71e020ea787e48778eddac81cbf94131b3355fb4fe41448928c9a6af1a4327f32f46056791ea206a15037
   languageName: node
   linkType: hard
 
@@ -9225,6 +9255,15 @@ __metadata:
   dependencies:
     "@types/react": ^17
   checksum: 1e330f6e1c0794562a8d3459357b5b401b6f23185991bdaf9e5025cad7ccace502662b071db765b07b0d79f313be1a7584c5ef775b1062d76585b6b9aec0693c
+  languageName: node
+  linkType: hard
+
+"@types/react-dom@npm:^18.0.0":
+  version: 18.0.6
+  resolution: "@types/react-dom@npm:18.0.6"
+  dependencies:
+    "@types/react": "*"
+  checksum: 8ea6e001b741cced20781b3e5e8704c2597815adf1dc22d6b4d24616f24db93364a7163543cb0690082201a351cbfcb6bb0f8ce44ee5ad76ccabacbfe0fb2dd3
   languageName: node
   linkType: hard
 
@@ -25484,7 +25523,7 @@ __metadata:
     "@storybook/manager-webpack5": 6.4.22
     "@storybook/react": 6.4.22
     "@testing-library/jest-dom": 5.16.4
-    "@testing-library/react": 12.1.5
+    "@testing-library/react": 13.3.0
     "@testing-library/user-event": 14.1.1
     "@types/aws-lambda": 8.10.94
     "@types/babel-core": 6.25.7
