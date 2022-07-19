@@ -110,7 +110,7 @@
     "decamelize": "5.0.1",
     "deepmerge": "4.2.2",
     "dotenv-defaults": "5.0.0",
-    "dotenv-webpack": "7.1.0",
+    "dotenv-webpack": "7.1.1",
     "enquirer": "2.3.6",
     "envinfo": "7.8.1",
     "esbuild": "0.14.49",
