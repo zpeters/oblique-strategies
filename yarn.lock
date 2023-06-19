@@ -14459,6 +14459,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dotenv-webpack@npm:7.1.1":
+  version: 7.1.1
+  resolution: "dotenv-webpack@npm:7.1.1"
+  dependencies:
+    dotenv-defaults: ^2.0.2
+  peerDependencies:
+    webpack: ^4 || ^5
+  checksum: 49ffff039369c3192acfdf4a5c2d2fce5cef908e7ba56b5eb0dbc2e634eb3541ddba6242df2ed57ca42ab83a71bffd159e0352c8b26f017a8c44d41863995439
+  languageName: node
+  linkType: hard
+
 "dotenv@npm:16.0.0, dotenv@npm:^16.0.0":
   version: 16.0.0
   resolution: "dotenv@npm:16.0.0"
@@ -25541,8 +25552,8 @@ __metadata:
     "@types/jest": 27.4.1
     "@types/line-column": 1.0.0
     "@types/node": 16.11.27
-    "@types/react-dom": 18.0.6
     "@types/react": 18.0.15
+    "@types/react-dom": 18.0.6
     "@types/webpack": 5.28.0
     "@typescript-eslint/eslint-plugin": 5.20.0
     "@typescript-eslint/parser": 5.20.0
@@ -25574,7 +25585,7 @@ __metadata:
     decamelize: 5.0.1
     deepmerge: 4.2.2
     dotenv-defaults: 5.0.0
-    dotenv-webpack: 7.1.0
+    dotenv-webpack: 7.1.1
     enquirer: 2.3.6
     envinfo: 7.8.1
     esbuild: 0.14.49
