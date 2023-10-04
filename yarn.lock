@@ -12562,6 +12562,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ci-info@npm:3.9.0":
+  version: 3.9.0
+  resolution: "ci-info@npm:3.9.0"
+  checksum: 6f0109e36e111684291d46123d491bc4e7b7a1934c3a20dea28cba89f1d4a03acd892f5f6a81ed3855c38647e285a150e3c9ba062e38943bef57fee6c1554c3a
+  languageName: node
+  linkType: hard
+
 "ci-info@npm:^2.0.0":
   version: 2.0.0
   resolution: "ci-info@npm:2.0.0"
@@ -25541,8 +25548,8 @@ __metadata:
     "@types/jest": 27.4.1
     "@types/line-column": 1.0.0
     "@types/node": 16.11.27
-    "@types/react-dom": 18.0.6
     "@types/react": 18.0.15
+    "@types/react-dom": 18.0.6
     "@types/webpack": 5.28.0
     "@typescript-eslint/eslint-plugin": 5.20.0
     "@typescript-eslint/parser": 5.20.0
@@ -25561,7 +25568,7 @@ __metadata:
     chalk: 4.1.2
     cheerio: 1.0.0-rc.10
     chokidar: 3.5.3
-    ci-info: 3.3.0
+    ci-info: 3.9.0
     concurrently: 7.1.0
     configstore: 3.1.5
     copy-webpack-plugin: 10.2.4
