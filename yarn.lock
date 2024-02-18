@@ -8665,10 +8665,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/aws-lambda@npm:8.10.94":
-  version: 8.10.94
-  resolution: "@types/aws-lambda@npm:8.10.94"
-  checksum: f93d8b16a41b80153594e9d127985bd81b9427a95ae9346549659202fc9effe55c6d8c17a82a5dc5fc4b364d3b11c18c754143aea5614a1a5d855a0e5455b3e5
+"@types/aws-lambda@npm:8.10.134":
+  version: 8.10.134
+  resolution: "@types/aws-lambda@npm:8.10.134"
+  checksum: 858df1644a4ed6e140cd555ef41c7f81b60d30b41e889586439db1b6250393b6ce99668e3420be2c5db62b4c33eb11cf8a08a5aade54e8dfb5a87a1adf22d57a
   languageName: node
   linkType: hard
 
@@ -25536,13 +25536,13 @@ __metadata:
     "@testing-library/jest-dom": 5.16.4
     "@testing-library/react": 13.3.0
     "@testing-library/user-event": 14.1.1
-    "@types/aws-lambda": 8.10.94
+    "@types/aws-lambda": 8.10.134
     "@types/babel-core": 6.25.7
     "@types/jest": 27.4.1
     "@types/line-column": 1.0.0
     "@types/node": 16.11.27
-    "@types/react-dom": 18.0.6
     "@types/react": 18.0.15
+    "@types/react-dom": 18.0.6
     "@types/webpack": 5.28.0
     "@typescript-eslint/eslint-plugin": 5.20.0
     "@typescript-eslint/parser": 5.20.0
